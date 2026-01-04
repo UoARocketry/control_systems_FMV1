@@ -1,0 +1,14 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "src/app_init.c"
+        "src/imu_driver.c"
+        "src/baro_driver.c"
+        "src/sd_logger.c"
+        "src/sensor_task.c"
+        "src/logger_task.c"
+        "src/status_task.c"
+    INCLUDE_DIRS
+        "."
+        "inc"
+)
